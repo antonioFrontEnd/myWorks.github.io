@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="headline">
+            <p> App Students Info Base</p>
+        </div>
+
+        <div class=input>
+            <div class="input_block">
+                <div class="input__blockData">
+                    <p class="input__headline">Input Student Data</p>
+                    <input type="text" name="name" placeholder="Input Name" />
+                    <input type="text"name="surname" placeholder="Input Surname" />
+                    <input type="number" name="age" placeholder="Input Age" />
+                    <input type="number" name="rating" placeholder="Input Rating" />
+                    <input type="text" name="about" placeholder="About you" />
+                    <button id="input_btn">ADD</button>
+                </div>
+                <div class=" input__blockList" id="input__blockList">
+                    <p id="input__headline">Student List</p>
+                    <div id="block"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</script>
+ 
+
+    <script src="javascript.js"></script>
+</body>
+</html>
